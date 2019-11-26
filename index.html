@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <script src="js/sell.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/donateRequsts.js"></script>
+</head>
+<body>
+<div class="container-fluid padding-0" id="body">
+    <section class="screen-one" id="change">
+        <div class="col-xl-8 col-12 offset-xl-2 offset-0">
+            <div class="row header-font justify-content-center">
+                <div class="col-4" id="rules-click" style="cursor: pointer">
+                    Правила
+                </div>
+                <div class="col-4" id="privilegy-click" style="cursor: pointer">
+                    Привилегии
+                </div>
+                <div class="col-4" id="vk" onclick="window.location.href='https://vk.com/micronovax'">
+                    Вконтакте
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-10 col-12 offset-xl-1 offset-0">
+            <div class="row text-center">
+                <div class="col-4 text-center align-self-center online">
+                    <div>Игроков онлайн</div>
+                    <div class="online-text">74/100</div>
+                </div>
+                <div class="col-4">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="col-4 text-center align-self-center online">
+                    <div>IP Сервера</div>
+                    <div class="online-text">DIVINECRAFT.RU</div>
+                </div>
+            </div>
+        </div>
+        <div id="rules">
+            <div class="col-xl-10 col-12 offset-xl-1 offset-0 mt-3">
+                <div class="row text-center">
+                    <div class="online online-text text-center col-12" style="border: 0">Правила сервера</div>
+                </div>
+                <div class="row text-center mt-5">
+                    <div class="rules-sign col-12">Самое <span style="color: #4DD0E1">главное</span>:</div>
+                </div>
+                <div class="row text-center mt-5 justify-content-between">
+                    <div class="col-4 rules-border online center-align">Не ругаться матом</div>
+                    <div class="col-4 rules-border online center-align">Не использовать читы</div>
+                    <div class="col-4 rules-border online center-align">Не покупать аккаунты</div>
+                </div>
+            </div>
+            <div class="col-xl-10 col-12 offset-0 offset-xl-1 mt-5 padding-0">
+                <div class="row text-center">
+                    <div class="col-12 online" style="border: 0">
+                        Полный список <span style="color: #4DD0E1">правил</span>:
+                    </div>
+                </div>
+                <div class="row mt-5 padding-0">
+                    <div class="col-12 online border-0 text-left">Основные положения</div>
+                </div>
+                <div class="rules-text mt-4">
+                    <div>1.1 Данный документ является официальным регламентом проекта, любые прочие таковыми не могут
+                        называться;
+                    </div>
+                    <div>
+                        1.2
+                        Регистрируясь на сервере, вы соглашаетесь со всеми пунктами данного списка, правами описанными
+                        ниже
+                        и
+                        обязанностями;
+                    </div>
+                    <div>1.3 Любой человек имеет право на несколько регистраций с одного IP адреса;</div>
+                    <div>1.4 Любой
+                        человек имеет право посещать проект, если он не нарушает правила проекта;
+                    </div>
+                    <div>1.5 Незнание правил не
+                        освобождает от ответственности;
+                    </div>
+                    <div>1.6 Играя на нашем сервере вы подтверждаете что прочитали FAQ;</div>
+                    <div>1.7 При
+                        вводе на сайте не верного ника администрация не отвечает за последствия покупки доната на этот
+                        ник;
+                    </div>
+                    <div>1.8
+                        Цель данных правил – защита интересов пользователей и установление порядка на всех ресурсах
+                        проекта;
+                    </div>
+                    <div> 1.9
+                        Администрация оставляет за собой право в одностороннем порядке изменять текущие правила с
+                        уведомлением
+                        пользователей посредством группы VK;
+                    </div>
+                    <div> 1.10 Администрация ведет управление игровыми процессами и всем
+                        проектом - исключительно по своему усмотрению;
+                    </div>
+                    <div>
+                        1.11 Так как не всегда удается определить нарушение
+                        правил пользователем, окончательное решение остается за Администраторами проекта;
+                    </div>
+                    <div>1.12 Право
+                        использования всех сервисов проекта, предоставляется Администрацией на бесплатной основе, за
+                        исключением
+                        дополнительных функций (приобретаемых на платной основе и активируемых путем активации
+                        дополнительных
+                        возможностей в серверной версии (плагины) игры). Использование бесплатного функционала
+                        предоставляется в
+                        текущей форме, не гарантируя 100% правильность работы. Игровые вещи, способности и т.п,
+                        утерянные в
+                        связи с ненадлежащей работой неоплачиваемых сервисов, не возвращаются;
+                    </div>
+                    <div>1.13 Оплата дополнительных частей
+                        программного продукта производится только на сайте проекта в валюте – рубли. Зачисление средств
+                        производится с помощью агрегатора платежей в любой валюте по месту нахождения пользователя,
+                        конвертируемой самим агрегатором в рубли. Оплата дополнительных прав считается как пожертвование
+                        и
+                        не
+                        может быть возвращена;
+                    </div>
+                    <div>1.14 Периодические обновления игрового мира – Вайп, производятся Администрацией
+                        по истечении временного отрезка, далее которого нормальное функционирование сервисов невозможно,
+                        ввиду
+                        особенностей построения игрового процесса. Длительность вышеуказанного временного отрезка
+                        определяется
+                        администрацией самостоятельно, исходя из текущего положения дел. Вайп не является отказом
+                        пользователю в
+                        использовании платных дополнений, т.к при этом не происходит отзыв лицензии на часть
+                        программного
+                        продукта или ограничения функционала этой части;
+                    </div>
+                    <div>1.15 Правообладателями дополнительных частей продукта
+                        являются их авторы. Использование этих частей Администрацией осуществляется на основе соглашения
+                        о
+                        свободном распространении и использовании;
+                    </div>
+                    <div>1.16 Регистрируясь и играя на нашем проекте, вы соглашаетесь
+                        с обработкой Администрацией ваших персональных данных, то есть совершение, в том числе,
+                        следующих
+                        действий: обработку (включая сбор, систематизацию, накопление, хранение, уточнение (обновление,
+                        изменение), использование, обезличивание, блокирование, уничтожение персональных данных)
+                    </div>
+                </div>
+                <div class="online border-0 text-left mt-5">Права и обязанности игроков</div>
+                <div class="rules-text mt-5">
+                    <div>2.1 Игрок имеет право использовать все доступные ему возможности, если они не нарушают правила
+                        проекта;
+                    </div>
+                    <div> 2.2
+                        Игрок полностью отвечает за надежность своего пароля и доступа к аккаунту;
+                    </div>
+                    <div> 2.3 Игрок имеет право на
+                        добровольное пожертвование;
+                    </div>
+                    <div>2.4 Игрок соглашается с тем, что потраченные им средства не будут
+                        возвращены;
+                    </div>
+                    <div>2.5 Игроки, имеющие различные привилегии на сервере, ничем не отличаются от обычных игроков,
+                        кроме привилегий и полностью подчиняются правилам проекта;
+                    </div>
+                    <div> 2.6 Любой игрок может пожаловаться на других
+                        игроков, за исключением пункта 3.8
+                    </div>
+                </div>
+                <div class="online border-0 text-left mt-5">Права и обязанности администрации проекта</div>
+                <div class="rules-text mt-5">
+                    <div>3.1 Главная администрация проекта является самым высоким по званию лицом, которое может не
+                        соблюдать
+                        данные правила и действовать на свое усмотрение;
+                    </div>
+                    <div>3.2 Администрация не хранит пароли пользователей, а
+                        только их хэш-сумму;
+                    </div>
+                    <div> 3.3 Администрация не несет ответственности за аккаунты игроков, включая социальную
+                        инженерию, вирусы, подбор пароля и т.п.;
+                    </div>
+                    <div>3.4 Решения администрации не подлежат обжалованию;</div>
+                    <div>3.5
+                        Администрация вправе изменять данные правила в любое время без уведомления игроков;
+                    </div>
+                    <div> 3.6 Администрация
+                        вправе выдавать любое наказание;
+                    </div>
+                    <div> 3.7 Жалобы на администрацию не принимаются;</div>
+                    <div>3.8 Администрация вправе
+                        забирать привилегии / отказывать в обслуживании игрокам без объяснения причины;
+                    </div>
+                    <div> 3.9 Толкование правил
+                        сайта осуществляется только главными Администраторами. Любые другие попытки истолковать правила
+                        в
+                        пользу
+                        любой из сторон признаются некорректными;
+                    </div>
+                    <div>3.10 Администрация имеет право не объяснять причины блокировки
+                        аккаунтов;
+                    </div>
+                    <div>3.11 Администратор вправе изъять у пользователя любое имущество, если пользователь не сможет
+                        доказать его честное (без использования запрещенных дополнительных программных средств – читов и
+                        т.д.)
+                        происхождение.
+                    </div>
+                    <div> 3.12 Администрация имеет право снять с должности Модератора за не актив на сервере от 3-х
+                        дней и более, но если он предупреждает о том, что будет отсутствовать определенное количество
+                        дней,
+                        то
+                        не будет снят с должности.
+                    </div>
+                </div>
+                <div class="online border-0 text-left mt-5">Запреты и наказания</div>
+                <div class="rules-text mt-5">
+                    <div>4.1 Использование нецензурной лексики в любом ее виде - Наказание: Мут на 15
+                        мин. / Наказание за использование в никнейме: Перманентный бан;
+                    </div>
+                    <div> 4.2 Гриферство (нечестная добыча вещей)
+                        разрешено на сервере "AgeMagic", если:
+                    </div>
+                    <div> 4.2 (1) Не использовать команды привилегированных игроков
+                        (Например: /kill; /tp и тд) - Наказание: Бан до 5 часов;
+                    </div>
+                    <div> 4.2 (2) Имея права на все регионы ломать и
+                        строить без ведома хозяина региона (препятствовать нормальной игре) - Наказание: Перманентный
+                        бан /
+                        Снятие привилегии;
+                    </div>
+                    <div> 4.3 Подстрекать других игроков на нарушение правил - Наказание: Мут на 1 час;</div>
+                    <div> 4.4
+                        Неприличные постройки или постройки (обязательно звать модератора), которые портят архитектуру
+                        игровой
+                        карты, такие как: столбы/лестницы в небо, коробки, оскорбительные постройки, застройка чужих
+                        построек и
+                        т.д. - Наказание: Снос постройки (если нет привата) + бан на 1 час;
+                    </div>
+                    <div> 4.5 Раздавать доступные донатерам
+                        возможности/ресурсы другим игрокам - Наказание: Перманентный бан / Снятие привилегии;
+                    </div>
+                    <div> 4.6 Флуд, спам,
+                        мат, оскорбление, транслит, капс, попрошайничество в чате - Наказание: Мут на 10 мин.;
+                    </div>
+                    <div> 4.7 Продавать
+                        аккаунты/Передача 3-им лицам аккаунт - Наказание: Перманентный бан и снятие привилегии;
+                    </div>
+                    <div> 4.8
+                        Использование чит - программ, багов, уязвимостей проекта - Наказание: Перманентный бан / Бан по
+                        IP;
+                    </div>
+                    <div>4.9
+                        Препятствие нормальной игре - Наказание: Кик/Бан на 30 минут - час;
+                    </div>
+                    <div> 4.10 Разжигание какой-либо розни -
+                        Наказание: Мут на 15 мин.;
+                    </div>
+                    <div> 4.11 Необоснованное наказание игроков - Наказание: Перманентный бан / Снятие
+                        доната;
+                    </div>
+                    <div> 4.12 Оскорблять проект, а так же его администраторов и модераторов - Наказание: Перманентный
+                        бан
+                        / Бан по IP;
+                    </div>
+                    <div> 4.13 Использование возможностей доната в корыстных целях (в пвп, полете и т.п.) -
+                        Наказание: Перманентный бан / Снятие доната;
+                    </div>
+                    <div> 4.14 Реклама других проектов в любом виде - Наказание:
+                        Перманентный бан / Бан по IP;
+                    </div>
+                    <div>4.15 Выпрашивание чего-либо у игроков, донатеров, администрации и т.д. -
+                        Наказание: Мут на 10 мин.;
+                    </div>
+                    <div> 4.16 Сделки, связанные с продажей игровых ценностей за реальные деньги. -
+                        Наказание: Перманентный бан / Бан по IP;
+                    </div>
+                    <div>4.17 Использование читов на всех минииграх независимо от
+                        привилегии - Наказание: Блокировка на 7 дней. (Данное правило не действует в настоящее время
+                        из-за
+                        отсутствия миниигр);
+                    </div>
+                    <div> 4.18 Разбан/размут виновного - Наказание: Перманентный бан;</div>
+                    <div> 4.19 Ввод в заблуждение
+                        (обман) администраторов и модераторов - Наказание: Перманентный бан;
+                    </div>
+                    <div> 4.20 Упоминание родителей в грубой
+                        или оскорбительной форме - Наказание: Перманентный бан и снятие привилегии;
+                    </div>
+                    <div> 4.21 Попытка взлома
+                        аккаунтов модераторов или администраторов - Наказание: Перманентный бан / Бан по IP.
+                        Перманентный
+                        бан =
+                        бан навсегда
+                    </div>
+                </div>
+                <div class="online border-0 text-left mt-5">Правила в сообществе ВК</div>
+                <div class="rules-text mt-5">
+                    <div>5.1 Запрещены оскорбления участников группы и\или игроков сервера - Наказание:
+                        Блокировка в группе на 7 дней;
+                    </div>
+                    <div> 5.2 Запрещено попрошайничество доната - Наказание: Перманентная
+                        блокировка в группе;
+                    </div>
+                    <div> 5.3 Запрещено использовать аккаунты с нецензурными именами - Наказание:
+                        Перманентная блокировка в группе;
+                    </div>
+                    <div> 5.4 Запрещено использование нецензурной лексики - Наказание:
+                        Блокировка в группе на 7 дней;
+                    </div>
+                    <div> 5.5 Запрещено разжигание той или иной розни в любом виде - Наказание:
+                        Перманентная блокировка в группе;
+                    </div>
+                    <div> 5.6 Запрещено обманывать/оскорблять администрацию/модераторов -
+                        Наказание: Перманентная блокировка в группе и\или полная блокировка аккаунта в игре;
+                    </div>
+                    <div> 5.7 Запрещена
+                        продажа доната - Наказание: Перманентная блокировка в группе;
+                    </div>
+                    <div> 5.8 Запрещено загружать в фотоальбомы
+                        чужие постройки/арты и прочий чужой материал
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="privilegys" class="mt-5" style="display: none">
+            <div class="popup-block" id="popup-block" style="padding: 10px">
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <h2>
+                            <img src="img/розовый.png" alt="">
+                            <span class="textColor" id="privilegyName">
+                        Streamer
+                        </span>
+                            <img src="img/розовый.png" alt="">
+                        </h2>
+                        <div class="mt-3 row">
+                            <input class="col-5 input-popup" id="input-popup" placeholder="Ник">
+                            <div class="col-4 popup-button align-items-center" id="donate-button" style="margin-left: 10px"><img
+                                    src="img/shopping-cart%201.png">Купить
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <div class="row" style="padding: 10px">
+                                <div style="color: #FFD422" id="price">299 ₽
+                                </div>
+                                <div class="secMoney ml-3 textColorOpasnost">
+                                    400 ₽
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-2 textColor">
+                            Предоставляет: <br/>
+                            -Титул короля <br/>
+                            -Доспехи и оружие короля <br/>
+                            -Королевский замок <br/>
+                            -70к алмаза
+                        </div>
+
+
+                    </div>
+                    <div class="col-5">
+                        <img src="img/Картинка%20товара@2x.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="popup-block" id="popup-block1" style="padding: 10px">
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <h2>
+                            <img src="img/желтая.png" alt="">
+                            <span class="textColor">
+                        King
+                        </span>
+                            <img src="img/желтая.png" alt="">
+                        </h2>
+                        <div class="mt-3 row">
+                            <input class="col-5 input-popup" id="input-popup1" placeholder="Ник">
+                            <div class="col-4 popup-button align-items-center" id="donate-button1" style="margin-left: 10px"><img
+                                    src="img/shopping-cart%201.png">Купить
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <div class="row" style="padding: 10px">
+                                <div style="color: #FFD422">
+                                    399 ₽
+                                </div>
+                                <div class="secMoney ml-3 textColorOpasnost">
+                                    700 ₽
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-2 textColor">
+                            Предоставляет: <br/>
+                            -Титул короля <br/>
+                            -Доспехи и оружие короля <br/>
+                            -Королевский замок <br/>
+                            -70к алмаза
+                        </div>
+
+
+                    </div>
+                    <div class="col-5">
+                        <img src="img/skinBattleKing1041.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!--God-->
+            <div class="popup-block" id="popup-block2" style="padding: 10px">
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <h2>
+                            <img src="img/ёмеральд.png" alt="">
+                            <span class="textColor">
+                        God
+                        </span>
+                            <img src="img/ёмеральд.png" alt="">
+                        </h2>
+                        <div class="mt-3 row">
+                            <input class="col-5 input-popup" id="input-popup2" placeholder="Ник">
+                            <div class="col-4 popup-button align-items-center" id="donate-button2" style="margin-left: 10px"><img
+                                    src="img/shopping-cart%201.png">Купить
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <div class="row" style="padding: 10px">
+                                <div style="color: #FFD422">
+                                    200 ₽
+                                </div>
+                                <div class="secMoney ml-3 textColorOpasnost">
+                                    300 ₽
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-2 textColor">
+                            Предоставляет: <br/>
+                            -Абсолютную свободу <br/>
+                            -Неограниченные ресурсы <br/>
+                            -Топ броню сервера <br/>
+                            -100к алмаза
+                        </div>
+
+
+                    </div>
+                    <div class="col-5">
+                        <img src="img/unnamed%201.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!--Knight-->
+            <div class="popup-block" id="popup-block3" style="padding: 10px">
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <h2>
+                            <img src="img/алмаз.png" alt="">
+                            <span class="textColor">
+                        Knight
+                        </span>
+                            <img src="img/алмаз.png" alt="">
+                        </h2>
+                        <div class="mt-3 row">
+                            <input class="col-5 input-popup" id="input-popup3" placeholder="Ник">
+                            <div class="col-4 popup-button align-items-center" id="donate-button3" style="margin-left: 10px"><img
+                                    src="img/shopping-cart%201.png">Купить
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <div class="row" style="padding: 10px">
+                                <div style="color: #FFD422">
+                                    499 ₽
+                                </div>
+                                <div class="secMoney ml-3 textColorOpasnost">
+                                    800 ₽
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-2 textColor">
+                            Предоставляет: <br/>
+                            -Меч искателя <br/>
+                            -Доступ в замок кароля<br/>
+                            -Особые заказы на убийства <br/>
+                            -50к алмаза
+                        </div>
+
+
+                    </div>
+                    <div class="col-5">
+                        <img src="img/Minecraft_steve-5.thumb.png%201.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!--Master-->
+            <div class="popup-block" id="popup-block4" style="padding: 10px">
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <h2>
+                            <img src="img/красный.png" alt="">
+                            <span class="textColor">
+                        Master
+                        </span>
+                            <img src="img/красный.png" alt="">
+                        </h2>
+                        <div class="mt-3 row">
+                            <input class="col-5 input-popup" id="input-popup4" placeholder="Ник">
+                            <div class="col-4 popup-button align-items-center" id="donate-button4" style="margin-left: 10px"><img
+                                    src="img/shopping-cart%201.png">Купить
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <div class="row" style="padding: 10px">
+                                <div style="color: #FFD422">
+                                    100 ₽
+                                </div>
+                                <div class="secMoney ml-3 textColorOpasnost">
+                                    300 ₽
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-2 textColor">
+                            Предоставляет: <br/>
+                            -Ускоренное получение XP <br/>
+                            -Улучшенная регенирация  <br/>
+                            -Стартовый набор <br/>
+                            -10к алмаза
+                        </div>
+
+
+                    </div>
+                    <div class="col-5">
+                        <img src="img/minecraft-skin-png-7%201.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-xl-3 col-5 offset-xl-0 bordur" id="popup-one">
+                    <div class="row">
+                        <div class="col-6">
+                            <h2>
+                                <img src="img/желтая.png" alt="">
+                                <span class="textColor">
+                        King
+                        </span>
+                                <img src="img/желтая.png" alt="">
+                            </h2>
+                            <div class="mt-2 textColor">
+                                Предоставляет: <br/>
+                                -Титул короля <br/>
+                                -Доспехи и оружие короля <br/>
+                                -Королевский замок <br/>
+                                -70к алмаза
+                            </div>
+
+                            <div class="mt-3">
+                                <div class="row" style="padding: 10px">
+                                    <div style="color: #FFD422">
+                                        399 ₽
+                                    </div>
+                                    <div class="secMoney ml-3 textColorOpasnost">
+                                        700 ₽
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="img/skinBattleKing1041.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-5 offset-xl-0 offset-1 bordur" id="popup-two">
+                    <div class="row">
+                        <div class="col-6">
+                            <h2>
+                                <img src="img/ёмеральд.png " alt="">
+                                <span class="textColor">
+                        God
+                        </span>
+                                <img src="img/ёмеральд.png" alt="">
+                            </h2>
+                            <div class="mt-2 textColor">
+                                Предоставляет: <br/>
+                                -Абсолютную свободу <br/>
+                                -Неограниченные ресурсы <br/>
+                                -Топ броню сервера <br/>
+                                -100к алмаза
+                            </div>
+
+                            <div class="mt-3" style="padding: 10px">
+                                <div class="row">
+                                    <div style="color: #FFD422">
+                                        499 ₽
+                                    </div>
+                                    <div class="secMoney ml-3 textColorOpasnost">
+                                        800 ₽
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="img/unnamed%201.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-5 offset-xl-0 mt-5 mt-xl-0 bordur" id="popup-three">
+                    <div class="row">
+                        <div class="col-6">
+                            <h2>
+                                <img src="img/алмаз.png" alt="">
+                                <span class="textColor">
+                        King
+                        </span>
+                                <img src="img/алмаз.png" alt="">
+                            </h2>
+                            <div class="mt-2 textColor">
+                                Предоставляет: <br/>
+                                -Меч искателя <br/>
+                                -Доступ в замок короля <br/>
+                                -Особые заказы на убийства <br/>
+                                -50к алмаза
+                            </div>
+
+                            <div class="mt-3" style="padding: 10px">
+                                <div class="row">
+                                    <div style="color: #FFD422">
+                                        299 ₽
+                                    </div>
+                                    <div class="secMoney ml-3 textColorOpasnost">
+                                        400 ₽
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="img/Minecraft_steve-5.thumb.png%201.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-xl-3 col-5 offset-xl-0 bordur" id="popup-four">
+                    <div class="row">
+                        <div class="col-6">
+                            <h2>
+                                <img src="img/розовый.png" alt="">
+                                <span class="textColor">
+                        King
+                        </span>
+                                <img src="img/розовый.png" alt="">
+                            </h2>
+                            <div class="mt-2 textColor">
+                                Предоставляет: <br/>
+                                -Меч искателя <br/>
+                                -Доступ в замок короля <br/>
+                                -Особые заказы на убийства <br/>
+                                -50к алмаза
+                            </div>
+
+                            <div class="mt-3" style="padding: 10px">
+                                <div class="row">
+                                    <div style="color: #FFD422">
+                                        299 ₽
+                                    </div>
+                                    <div class="secMoney ml-3 textColorOpasnost">
+                                        400 ₽
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="img/28361648;960x540%201.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-5 offset-xl-1 offset-1 bordur" id="popup-five">
+                    <div class="row">
+                        <div class="col-6">
+                            <h2>
+                                <img src="img/красный.png" alt="">
+                                <span class="textColor">
+                        King
+                        </span>
+                                <img src="img/красный.png" alt="">
+                            </h2>
+                            <div class="mt-2 textColor">
+                                Предоставляет: <br/>
+                                -Меч искателя <br/>
+                                -Доступ в замок короля <br/>
+                                -Особые заказы на убийства <br/>
+                                -50к алмаза
+                            </div>
+
+                            <div class="mt-3" style="padding: 10px">
+                                <div class="row">
+                                    <div style="color: #FFD422">
+                                        299 ₽
+                                    </div>
+                                    <div class="secMoney ml-3 textColorOpasnost">
+                                        400 ₽
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="img/minecraft-skin-png-7%201.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div style="margin-top:100px" class="text-center">
+            <div class="all">Все товары</div>
+            <img src="img/arrow.png" height="50px" alt="">
+        </div>
+    </section>
+    <section class="privilegy" style="padding-bottom: 30px" id="sell">
+        <div class="col-xl-10 col-12 offset-xl-1 offset-0">
+            <div class="row justify-content-between scrolling" style="padding-right: 40px; overflow-x: scroll">
+                <div><img src="img/1.png"
+                          alt=""></div>
+                <div class=" sell1 align-self-center" id="sell1" style="color: #FFFFFF">Лучшие товары</div>
+                <div class=" sell1 align-self-center" id="sell2" style="color: #FFFFFF">Кейсы</div>
+                <div class="sell1 align-self-center" id="sell3" style="color: #FFFFFF">Титулы</div>
+                <div class="sell1 align-self-center" id="sell4" style="color: #FFFFFF">Кейсы</div>
+                <div class="sell1 align-self-center" id="sell5" style="color: #FFFFFF">Оружие</div>
+                <div class="sell1 align-self-center" id="sell6" style="color: #FFFFFF">Разное</div>
+            </div>
+            <div>
+                <div class="row justify-content-center">
+                    <div class="text-center sell-border col-auto">
+                        <img src="img/crown.png" alt="">
+                        <div class="sell">Король</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border col-auto">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border col-auto">
+                        <img src="img/80398-servers-orange-computer-minecraft-icons-free-clipart-hd%201.png" alt=""
+                             height="92px" width="92px">
+                        <div class="sell">Ислам</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border col-auto">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border col-auto" style="margin-right: 1%">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="text-center sell-border">
+                        <img src="img/crown.png" alt="">
+                        <div class="sell">Король</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border">
+                        <img src="img/80398-servers-orange-computer-minecraft-icons-free-clipart-hd%201.png" alt=""
+                             height="92px" width="92px">
+                        <div class="sell">Ислам</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border" style="margin-right: 1%">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="text-center sell-border">
+                        <img src="img/crown.png" alt="">
+                        <div class="sell">Король</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border">
+                        <img src="img/80398-servers-orange-computer-minecraft-icons-free-clipart-hd%201.png" alt=""
+                             height="92px" width="92px">
+                        <div class="sell">Ислам</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border" style="margin-right: 1%">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="text-center sell-border">
+                        <img src="img/crown.png" alt="">
+                        <div class="sell">Король</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border">
+                        <img src="img/80398-servers-orange-computer-minecraft-icons-free-clipart-hd%201.png" alt=""
+                             height="92px" width="92px">
+                        <div class="sell">Ислам</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border" style="margin-right: 1%">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="text-center sell-border">
+                        <img src="img/crown.png" alt="">
+                        <div class="sell">Король</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border">
+                        <img src="img/80398-servers-orange-computer-minecraft-icons-free-clipart-hd%201.png" alt=""
+                             height="92px" width="92px">
+                        <div class="sell">Ислам</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                    <div class="text-center sell-border" style="margin-right: 1%">
+                        <img src="img/minecraft.png" alt="" height="92px" width="92px">
+                        <div class="sell">Шахтёр</div>
+                        <div class="sell" style="color: #FFD422">От 179$</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row justify-content-center" style="margin-top: 100px;">
+            <img src="img/copyright.png" alt="">
+            <span class="copy align-self-center">2019 DivineCraft</span>
+        </div>
+
+
+    </section>
+</div>
+</body>
+</html>
